@@ -3,4 +3,5 @@ flask
 flask-restful
 flask-migrate
 flask-marshmallow
+mlflow
 waitress==2.1.2
