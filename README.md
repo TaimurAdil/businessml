@@ -4,21 +4,24 @@
 
 Business ML is a multi-level project containing different components.
 
-## Tools
+### 🛠 &nbsp;Tech Stack
+- Python
+- FlaskAPI
 
-### Language
+- ML Flow 
 
 ## Pre-requsites 
+- Docker 
+- VS CODE 
 
-
-## Setup / Installation
+### ⚙️ &nbsp;Setup / Installation
 
 * Configure `.env` file
-* Run docker compose up <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20Terminal&logoColor=white" style="max-width:60%;">
+* Run docker compose by following command on <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20Terminal&logoColor=white" style="max-width:60%;">
 ```bash
 docker-compose up --build
 ```
-* Open up `http://localhost:5000` <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" style="max-width:60%;"> to access ML Flow UI
-* Open up `http://localhost:8000/api/status` <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" style="max-width:60%;"> to access API
+* Open up `http://localhost:5000` through <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" style="max-width:60%;"> to access ML Flow UI
+* Open up `http://localhost:8000/api/status` through <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" style="max-width:60%;"> to access API
 
 
