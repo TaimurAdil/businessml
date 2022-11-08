@@ -6,19 +6,17 @@ Business ML is a multi-level project containing different components.
 
 ### 🛠 &nbsp;Tech Stack
 #### Development / Libraries
-:one: Python
-:two: FlaskAPI
+- Python
+- FlaskAPI
 
 #### ML Tracking 
-:one: ML Flow 
-:two: PyLogger
-
-### Pre-requsites 
-:one: Docker 
-:two: VS CODE 
+- ML Flow 
+- PyLogger
 
 ### ⚙️ &nbsp;Setup / Installation
 
+* Install Docker and VS CODE 
+* Clone this repo
 * Configure `.env` file
 * Run docker compose by following command on <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20Terminal&logoColor=white" style="max-width:60%;">
 ```bash
