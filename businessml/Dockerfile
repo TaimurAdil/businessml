@@ -12,11 +12,15 @@ RUN mkdir /code
 WORKDIR /code
 
 # COPY requirements.txt setup.py tox.ini ./
-COPY requirements.txt ./
+COPY requirements.txt ./requirements.txt
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-COPY businessml_api businessml_api/
+COPY . .
+
+RUN python -m pytest tests/
+RUN python -m pytest --cov=tests/ --cov-report xml:coverage.xml --junitxml=tests.xml tests/
+RUN coverage report
 
 EXPOSE 8000
 

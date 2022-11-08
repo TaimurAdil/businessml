@@ -5,6 +5,7 @@ from mlflow import log_metric, log_param, log_artifacts
 
 http = Blueprint(name="businessml", import_name=__name__, url_prefix="/api")
 
+
 @http.route('/status')
 def application_status():
     return jsonify({'status':'Server is up and running'})
@@ -18,4 +19,4 @@ def sample_run():
     log_metric("foo", random() +1)
     log_metric("foo", random() +2)
 
-    return jsonify({'status':'sample eun execution completed,  ${MLFLOW_TRACKING_URI}'})
+    return jsonify({'status':'sample run execution completed,  ${MLFLOW_TRACKING_URI}'})

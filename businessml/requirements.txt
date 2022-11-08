@@ -4,4 +4,6 @@ flask-restful
 flask-migrate
 flask-marshmallow
 mlflow
+pytest
+pytest-cov
 waitress==2.1.2
